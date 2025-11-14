@@ -16,3 +16,31 @@ p {
     text-align: center;
     font-size: 1.1em;
 }
+
+.navbar {
+    background-color: #ffffff; /* White background */
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
+    padding: 0 20px; /* Add some horizontal padding */
+    border-radius: 8px; /* Slightly rounded corners */
+    margin: 10px auto; /* Center the navbar with some margin */
+    max-width: 960px; /* Limit width for a cleaner look */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center items horizontally */
+}
+
+.navbar a {
+    display: block;
+    color: #333; /* Darker text color */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold; /* Make text bolder */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover */
+}
+
+.navbar a:hover {
+    background-color: #007bff; /* Blue hover background */
+    color: white; /* White text on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
