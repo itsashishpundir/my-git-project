@@ -86,20 +86,170 @@ p {
 
 footer {
 
+
+
     background-color: #333;
+
+
 
     color: white;
 
+
+
     text-align: center;
+
+
 
     padding: 20px;
 
+
+
     position: relative;
+
+
 
     bottom: 0;
 
+
+
     width: 100%;
 
+
+
     margin-top: 20px; /* Add some space above the footer */
+
+
+
+}
+
+
+
+
+
+
+
+.form-container {
+
+
+
+    padding: 40px 20px;
+
+
+
+    background-color: #f9f9f9;
+
+
+
+    text-align: center;
+
+
+
+}
+
+
+
+
+
+
+
+.horizontal-form {
+
+
+
+    display: flex;
+
+
+
+    justify-content: center;
+
+
+
+    gap: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+.horizontal-form input {
+
+
+
+    padding: 12px;
+
+
+
+    border: 1px solid #ccc;
+
+
+
+    border-radius: 5px;
+
+
+
+    width: 250px;
+
+
+
+}
+
+
+
+
+
+
+
+.horizontal-form button {
+
+
+
+    padding: 12px 25px;
+
+
+
+    background-color: #007bff;
+
+
+
+    color: white;
+
+
+
+    border: none;
+
+
+
+    border-radius: 5px;
+
+
+
+    cursor: pointer;
+
+
+
+    transition: background-color 0.3s ease;
+
+
+
+}
+
+
+
+
+
+
+
+.horizontal-form button:hover {
+
+
+
+    background-color: #0056b3;
+
+
 
 }
